@@ -1,2 +1,3 @@
 Pierwsze repo.
-Wrzucam wszystkie zadania, made by JACUP 
+Wrzucam wszystkie zadania, made by JACUP
+yo!
