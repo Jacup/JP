@@ -1,10 +1,10 @@
 README.md
 Makefile
 */Makefile
-zad?
-*/zad?
-zad??
-*/zad??
+zad*
+*/zad*
+zad*
+*/zad*
 print_make
 
 # Prerequisites
