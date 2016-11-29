@@ -20,20 +20,3 @@ int main()
 
   return 0;
 }
-
-/*
-#include <stdio.h>
-//#include <conio.h>
-
-int main()
-{
-        int i,x,silnia=1;
-        printf("\n Wczytaj cyfre: ");
-
-        for(i=1;i<=x;i++)
-                silnia=silnia*i;
-        printf("\n %d! = %d",x,silnia);
-
-        return 0;
-}
-*/
