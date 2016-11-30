@@ -3,7 +3,7 @@ int main()
 {
   int suma = 0, m, i = 1;
   printf("Podaj liczbe M: ");
-  scanf("%i\n", &m);
+  scanf("%i", &m);
   while (suma < m)
   {
     i = i + 1;
@@ -14,5 +14,5 @@ int main()
 }
 
 /* todo:
-1) if input is letter = error
-2) enter end scanf function */
+1)[ ]if input is letter = error
+2)[x] enter ends scanf function */
