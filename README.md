@@ -1,3 +1,1 @@
-Pierwsze repo.
-Wrzucam wszystkie zadania, made by JACUP
-yo!
+##Repo z Języków Programowania
