@@ -1,5 +1,5 @@
 #Repo z Języków Programowania
-costam
+bleh
 ##Useful links
-[http://tao.inf.ug.edu.pl/](http://tao.inf.ug.edu.pl/)
-[tdz/C](https://inf.ug.edu.pl/~tdz/C/)
+-http://tao.inf.ug.edu.pl/
+-https://inf.ug.edu.pl/~tdz/C/
