@@ -9,6 +9,6 @@ bleh
 
 ###TODO
 
-[ ] funkcje: 5, 62, 7, 8
+[  ] funkcje: 5, 62, 7, 8
 
-[ ] extended makefile
+[  ] extended makefile
