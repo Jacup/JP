@@ -4,3 +4,5 @@ bleh
 - http://tao.inf.ug.edu.pl/
 
 - https://inf.ug.edu.pl/~tdz/C/
+###TODO
+[ ] funkcje
