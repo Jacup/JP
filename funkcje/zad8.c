@@ -2,9 +2,16 @@
 #include <stdlib.h>
 #include <time.h>
 int main() {
-int x, a;
+void los() {
   srand(time(NULL));
-  {x=(rand() %1000)+1; printf(" %d", x); }
+  {x=(rand() %1000)+1; printf(" %d\n", x); }
+}
+
+
+
+int x, a;
+srand(time(NULL));
+{x=(rand() %1000)+1; printf(" %d\n", x); }
   printf("Zgadnij jaka liczbe (1-1000) wybralem\n");
   scanf("%d", &a );
   if ( a==x )

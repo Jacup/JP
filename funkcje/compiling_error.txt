@@ -1,0 +1,2 @@
+/home/studinf/jgramburg/jp/funkcje/craps.c:9:20: fatal error: genlib.h: Nie ma takiego pliku ani katalogu
+compilation terminated.
