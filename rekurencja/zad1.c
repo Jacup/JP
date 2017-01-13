@@ -1,13 +1,15 @@
 #include <stdio.h>
 #include <math.h>
-int potega(int n, int k) {
-  if (n==0) return 1;
-  else return potega(n-1, k-1)*n;
+
+int power(int n, int k) {
+  if (k==0)
+    return 1;
+  else
+    return n=n*power(n, --k);
 }
 int main() {
-  int a=5, b=5;
-//printf("Podaj n oraz k");
-//scanf("%d %d",&n  , &k );
-printf("%d\n ", potega(a, b) );
-return 0;
+  float n, k;
+  printf("Podaj a oraz b\n");
+  scanf("%f %f", &n, &k );
+  printf("%d\n", power(n, k));
 }
