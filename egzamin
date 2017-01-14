@@ -1,0 +1,27 @@
+1. Co wypisze na wyjściu printf(" %s %s", s1, s2 ) po wpisaniu powyższego kodu
+    char s1[] - 'ala', char *s2,
+    s2=s1
+    *(s1+1)='g';
+  [ a) aga aga ]    b) aga ala    c) ala ala
+
+2. Jaką wartość przyjmie zmienna n po wykonaniu instrukcji?
+  int n=1
+  switch(n++) {
+    case 1: n++;
+    case 2: n++;
+  }
+  a) 2    b) 3    [ c) 4 ]    ## NIE MA BREAK!!!
+
+3. Co zostanie wypisane na wyjściu po wywołaniu funkcji licznie(8
+  void liczenie(8) {
+  if (x>2)
+    liczenie (x-3)
+  putchar( x+'0')
+  }
+ a) 58    b)852   [ c)258 ]     ##REKURENCJA -- OD TYŁU
+
+ 4. Jaka wartość zostanie wypisana na stdout po wykonaniu instrukcji?
+  int n=2
+  if (n==2) printf("%d", n++);
+  else printf ("%d", --n);
+a) 1    b) 2    c)3
