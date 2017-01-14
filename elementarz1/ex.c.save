@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main () {
+int M, suma=0, i=1 ;
+scanf ("%d\n" &M)
+while (suma < M)
+suma=suma+i;
+i=i+1;
+
