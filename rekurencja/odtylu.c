@@ -1,10 +1,9 @@
 #include<stdio.h>
-void odtylu() {
-  char c;
-  while( (c=getchar()) !=EOF) {odtylu(); printf("%s\n",c );; }
+int rev(int x) {
+  return x;
 }
 int main() {
-odtylu();
-printf("\n");
-  return 0;
+  int x;
+  scanf("%d\n", &x);
+printf("%d\n", rev(x));
 }

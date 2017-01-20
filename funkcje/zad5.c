@@ -1,29 +1,23 @@
 #include <stdio.h>
-void owal(int n) {
-  int j;
-  for (int i = 1; i <= n; i++) {
-    for (j = 1; j<=n/2-i; j++) printf(" ");
-      printf("*");
-    for (j = 1; j <= 2*i-2; j++) printf (" ");
-      printf("*\n");
-      }
+void square(int h, int w){
+  for(int i = 0; i < w; i++)  printf("*");    //linia pozioma gorna
+  printf("\n");
+  for (int i = 0; i < h-2; i++) {
+    printf("*");
+    for(int j = 2; j < w; j++)  printf(" ");  //wypelnienie
+    printf("*\n");
   }
+  for(int i = 0; i < w; i++)  printf("*");    //linia pozioma dolna
 
-  void kwadrat (int h, int w) {
-    int j;
-//    for (int i = 1; i <= 10; i++) {
-      for (j = ; j <= 5; j++) printf("*");
-      for (j = 1; j <= 5; j++)
-       //}
-
-
-
-
-
-
+  printf("\n");
 }
-  int main () {
+void circle(int h, int w){}
+void arrow(int h, int w){}
+void diamond(int h, int w){}
 
-  //  owal(x);
-      kwadrat(10,10);
-  }
+int main(){
+  int h, w;
+  printf("Podaj wysokosc i szerokosc:");
+  scanf("%d %d", &h, &w);
+  square(h,w);
+}

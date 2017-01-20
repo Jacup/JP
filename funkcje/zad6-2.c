@@ -1,24 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-int main() {
-  int x, i;
-srand(time(NULL));
-for ( i = 1; i < 6; i++) {x=(rand() % 49)+1; printf(" %d", x); } printf("\n");
-x= (rand() % 4)+2;
-printf("x= %d\n", x);
-switch (x) {
-  case 5: printf("pjona\n");
-    break;
-  case 4: printf("czwora\n");
-    break;
-  case 3: printf("troja\n");
-    break;
-    case 2: printf("nie zdales\n");
-      break;
-    default : printf("dupa\n");
-    }
-return 0;
+void calc(int tans[]) {
+  int ans, a, b;
+  srand(time(NULL));
+  {a=(rand() % 10)+1;}
+  {b=(rand() % 10)+1;}
+  printf("%d * %d = ?\n", a, b);
+  scanf("%d", &ans);
+  if (ans == (a * b))
+  tans[1]++;
+  else
+  tans[0]++;
+}
 
 
+int main(){
+
+
+  int tans[2]={0, 0};
+for (int i = 1; i <= 5; i++) {
+ printf("\nPytanie numer %d.\n", i);
+ calc(tans);
+}
+  printf("\nIlosc dobrych odpowiedzi: %d\n", tans[1]);
+  printf("Ilość złych odpowiedzi: %d\n", tans[0]);
 }
