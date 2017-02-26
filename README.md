@@ -1,5 +1,5 @@
 #Repo z Języków Programowania
-bleh
+sableh
 ##Useful links
 - http://tao.inf.ug.edu.pl/
 
@@ -13,5 +13,5 @@ bleh
 
 [  ] extended makefile
 
-inf.ug.edu.pl/~tdz/C/pliki-zad1.c   (1-4) (dane.txt, nowa-lista.txt, wysokie-zarobki.txt) 
+inf.ug.edu.pl/~tdz/C/pliki-zad1.c   (1-4) (dane.txt, nowa-lista.txt, wysokie-zarobki.txt)
 test
