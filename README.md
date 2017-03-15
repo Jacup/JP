@@ -1,6 +1,6 @@
-#Repo z Języków Programowania
+# Repo z Języków Programowania
 sableh
-##Useful links
+## Useful links
 - http://tao.inf.ug.edu.pl/
 
 #KOLOKWIUM 21 STYCZNIA 2K17
