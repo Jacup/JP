@@ -11,7 +11,7 @@ sableh
 
 [  ] funkcje: 5, 62, 7, 8
 
-[  ] extended makefile
+[  ] extended makefilee
 
 inf.ug.edu.pl/~tdz/C/pliki-zad1.c   (1-4) (dane.txt, nowa-lista.txt, wysokie-zarobki.txt)
 test
